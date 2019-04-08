@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Language English -->
+<html lang="en">
+<head>
+    <!-- BASIC ENCODE UTF-8 (Universal Language) -->
+    <meta charset="UTF-8"> 
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Capability Windows Edge Browser -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Title of Website -->
+    <title>Basic HTML Learning</title>
+    <!-- Load from CSS file -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <!-- Link -->
+    <a href="http://www.google.com">Google</a>
+
+    <!-- alt - Alternate Image when image is not shown -->
+    <!-- Will show the text of the image -->
+    <!-- src - load image -->
+    <img src="./image.PNG" alt="Image Gambar Ini" width="500" height="500">
+
+    <!-- Style Attribute & Title -->
+    <p style="color : red;" title="Ada tooltip">Some Random Text</p>
+
+    <!-- Bad Practice - No String-->
+    <a href=www.google.com>Link</a>
+
+    <!-- Good Practice - MUST HAVE STRING FOR ATTIBUTE -->
+    <a href="http://www.google.com">Link</a>
+
+    <!-- HTML Heading -->
+    <h1>Big Title</h1>
+    <h2>Small Big Title</h2>
+    <h3>H3 Title</h3>
+    <h4>H4 Title</h4>
+    <h5>H5 Title</h5>
+    <h6>H6 Title</h6>
+
+    <!-- Paragraph -->
+    <p class="espanol" style="color: green;" id="karanganBahasa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim facere aperiam minus quo nihil numquam beatae et perferendis officia distinctio nam nemo eius in, omnis sed doloribus, quod qui itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nihil sequi ipsam, repellendus quaerat deserunt voluptatem delectus eveniet praesentium possimus natus laudantium, magni inventore veritatis error asperiores ipsa voluptatum eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam possimus, suscipit neque animi assumenda? Libero fugit ab, perferendis ullam delectus reiciendis quis cum, repellendus accusantium fuga consequatur veniam amet.</p>
+
+    <!-- Internal CSS Stylesheet -->
+    <style>
+        /* Internal CSS */
+        /* For class selector start with "." */
+        .title{
+            color : blue;
+        }
+
+        /* Title ID */
+        #titleId{
+            color: yellow !important; /*Important can override*/
+        }
+    </style>
+
+    <!-- Inline CSS -->
+    <h1 class="title" style="color: pink;" id="titleId">Test</h1>
+    <!-- -------------------------- -->
+    <!-- Color kan paragraph yang "id" dia adalah "karanganBahasa" kepada warna hijau dan background color dia biru -->
+    <!-- Besarkan font size paragraph kepada 20px dan line-height dia adalah bersamaan 25px -->
+    <!-- Markah : 80% -->
+    <!-- -------------------------- -->
+
+
+    <!-- Links -->
+
+    <!-- Links must have https/http (Hyperlinks) -->
+    <a href="https://www.google.com" style="
+    padding : 20px;
+    font-size : 50px;
+    ">Google</a>
+
+    <!-- Link ke page lain -->
+    <!-- Link boleh terima extension file contoh .html , .js dan sebagainya (Local Link) -->
+
+    <!-- www.google.com/blog/first-blog = Ni namanya route (Route Links) -->
+    <a href="page2.html" style="
+    padding : 20px;
+    font-size : 30px;
+    ">Pergi ke page 2</a>
+
+    <!-- TARGET -->
+    <!-- 
+        _blank - Opens the linked document in a new window or tab
+        _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+        _parent - Opens the linked document in the parent frame
+        _top - Opens the linked document in the full body of the window
+     -->
+
+    <!-- Open New Browser and browse www.google.com -->
+    <!-- target="_blank" -> Open new Browser -->
+    <a href="https://www.google.com" target="_blank">Blank/New Google</a>
+
+    <a href="https://www.youtube.com">Self Youtube</a>
+
+    <a href="https://www.facebook.com" target="_parent">Parent Google</a>
+
+    <a href="https://www.facebook.com" target="_top">Top Google</a>
+
+    <!-- Image Link -->
+    <a href="https://www.w3schools.com/w3css/img_lights.jpg">
+        <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="Light Image">
+    </a>
+
+    <!-- TUGASAN
+        Masukkan image yang boleh bukak kepada tab baru bila click image tersebut. Besarkan image width kepada 100% dan height 100% dan position absolute dan display block
+
+        Markah : 100%
+    -->
+
+    <a href="https://s3.paultan.org/image/2016/05/Honda-Civic-Thai-Review-53.jpg" target="_blank">
+        <img src="https://s3.paultan.org/image/2016/05/Honda-Civic-Thai-Review-53.jpg" alt="Kereta Baru" width="100%" height="100%" style="position: absolute; display: block">
+    </a>
+
+</body>
+</html>
