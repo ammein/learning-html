@@ -1,7 +1,8 @@
 const express = require('express');
-
 var app = express();
 app.use(express.static(__dirname + '/public'));
+
+var PORT = 3000;
 app.get('/', (req, res) => {
     /*
     Have two argument :
@@ -10,6 +11,9 @@ app.get('/', (req, res) => {
     */
 });
 
-app.listen(3000 , function () {
-    console.log("Server starting up !");
+
+app.listen(PORT , function () {
+    console.log(`Server starting up ! 
+    Server at localhost:${PORT}
+    `);
 });

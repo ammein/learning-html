@@ -15,5 +15,11 @@ To study the code , open any folders inside `/public` folder :
 learning-html/public/<Any Files>
 ```
 
+To Start Server :
+```bash
+node server
+```
+> Look at your console to see Localhost server and start browsing ! :)
+
 ## Next Learning Session
 > 14 April 2019
