@@ -1,3 +1,43 @@
 .title{
+    /* asdfbascbdskfbsdkhcb */
     background-color: black !important;
+}
+
+/* CSS.html */
+/* 
+    panggil class selector => . => Contoh .text
+    panggil id selector => # => Contoh #text 
+*/
+
+/* Selector Practice */
+.hello { /*Selector Class*/
+    /* Color kan text warna biru */
+    color: blue;
+    /* color (Property), blue(Value)*/
+}
+
+.hello { /*Selector ID*/
+    /* 
+        width -> 160px
+        heigth -> 20px
+        background-color -> yellow
+    */
+    
+    width: 160px;
+    /* width (Property), 160px (Value) */
+    height: auto;
+    /* height (Property), auto (Value) */
+    background-color: yellow;
+    /* background-color (Property), yellow (Value) */
+}
+
+div {
+    border: 5px solid orange;
+    border-bottom-style: dotted;
+    border-right-color: green;
+    border-top-width: 100px;
+}
+
+span {
+    color: pink;
 }

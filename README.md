@@ -2,12 +2,13 @@
 
 So far what we have learned
 
-1. Bones & Structures of a Website
-2. HTML Attributes
-3. HTML Typography
-4. HTML Comments Practice
-5. HTML CSS
-6. HTML Links
+## HTML (index.html & index2.html)
+1. Everything About HTML
+---
+## CSS (css.html)
+1. Syntax
+2. Basic Color
+3. Comment Practice
 
 To study the code , open any folders inside `/public` folder :
 
